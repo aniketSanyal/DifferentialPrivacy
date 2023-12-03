@@ -11,5 +11,7 @@ The chose model is tiny-bert ("prajjwal1/bert-tiny"), trained on the datasets "s
 Please run the following command before running on colab to install dependencies
 
 ```
-pip install peft opacus transformers datasets
+pip install peft opacus transformers datasets loralib
 ```
+
+Primarily, I tuned the optimiser with learning rates of 1e-3 and 5e-4. The batch sizes were also tuned around ranging from 8-256
