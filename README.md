@@ -7,3 +7,9 @@ The above repository encompasses code for the following 5 techniques used for tu
 5. last layer fine tuning
 
 The chose model is tiny-bert ("prajjwal1/bert-tiny"), trained on the datasets "sst2", "qnli", "qqp" and "mnli"
+
+Please run the following command before running on colab to install dependencies
+
+```
+pip install peft opacus transformers datasets
+```
